@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: inter;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+/* navbar */
+#navbar{
+    padding: 5px 2px; 
+    border-bottom: 1px solid #E2E8F0;
+    
+}
+#navbar .wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+#navbar .navbar-left{
+    display: flex;
+    align-items: center;
+
+}
+#navbar .navbar-right{
+    display: flex;
+    gap: 10px;
+
+}
+#navbar .navbar-right .btn1{
+    padding: 10px 15px;
+    
+
+
+}
+#navbar .navbar-right .btn2{
+    padding: 15px 13px;
+    background-color: rgb(60, 60, 95);
+    color: white;  
+}
+
+/* spotlight */
+
+#spotlight{
+
+
+}
+#spotlight .spotlight-contend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+#spotlight .spotlight-contend .spotlight-left{
+
+
+}
+#spotlight .spotlight-contend .spotlight-left h1{
+    font-weight: 700;
+    size: 40px;
+    padding-bottom: 10px;  
+}
+#spotlight .spotlight-contend .spotlight-left h5{
+    font-weight: 400;
+    size: 16px;
+    line-height: 25.6px;
+    padding-bottom: 15px;
+}
+#spotlight .spotlight-contend .spotlight-left .spt-btn{
+    padding: 10px 10px;
+    background-color:#3B82F6;
+    border: none;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+#spotlight .spotlight-contend .spotlight-right{
+
+}
+
+/* coures */
+#coures {
+    padding: 50px;
+
+}
+#coures .coures-num{
+    display: flex;
+    justify-content: space-between;
+    background-color:#F8FAFC;
+    padding: 50px 0 50px 0;
+
+}
+#coures .coures-num .coures-num-1{
+    border-right: solid gray;
+    margin-right: 5px;
+    text-align: center;
+    padding: 5px;
+}
+#coures .coures-num .coures-num-1 h4{
+    font-size: 32px;
+    font-weight: 600; 
+}
+#coures .coures-num .coures-num-1 h5{
+    font-size:14px;
+    font-weight: 400;  
+}
+
+/* categry*/
+
+#categry {
+
+}
+#categry .top-categories {
+    
+}
+#categry .top-categories .top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+#categry .top-categories .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+#categry .top-categories .bottom .astrology{
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    padding: 24px 93px 24px 93px;
+    text-align: center;
+    line-height: 30px;   
+}
+#categry .top-categories .bottom .astrology .astro-img{
+    background: #E0F2FE;
+    border-radius: 100%;
+    padding: 20px;
+  
+}
+
+#categry .top-categories .bottom .astrology h5{
+    
+}
+#categry .top-categories .bottom .astrology p{
+    
+}
+
+/* top-coureses */
+
+#top-courses{
+    padding-top: 40px;
+
+}
+#top-courses .top-courses{
+    padding-bottom: 5%;
+    
+   
+    
+}
+#top-courses .top-courses .top-courses-top{
+    padding-bottom: 20px;
+    
+}
+#top-courses .top-courses .top-courses-top h3{
+    
+}
+#top-courses .top-courses .top-courses-bottom{
+    display: flex;
+    justify-content: space-between
+    
+    
+    
+       
+}
+#top-courses .top-courses .top-courses-bottom .beginner{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    padding: 10px 10px 10px 10px;
+    border-radius:15px ;
+    
+    
+
+    
+}
+#top-courses .top-courses .top-courses-bottom .beginner .course-img{
+    
+}
+#top-courses .top-courses .top-courses-bottom .beginner h5{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #0F172A;
+
+}
+#top-courses .top-courses .top-courses-bottom .beginner p{
+    font-weight:400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #334155;
+
+}
+#top-courses .top-courses .top-courses-bottom .beginner .hours{
+    font-weight:400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #334155;
+
+}
+#top-courses .top-courses .top-courses-bottom .beginner .doller{
+    font-weight:600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0F172A;
+
+}
+
+
+
+
+/* instructors */
+
+#instructors{
+
+}
+
+
+#instructors .top-instructors{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+    
+}
+#instructors .top-instructors .instructors-list{
+    border: 1px solid #E2E8F0;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 2;
+
+
+    
+}
+#instructors .top-instructors .instructor-list .instructors-img{
+    
+    
+    
+}
+#instructors .top-instructors .instructor-list .instructors-img img{
+    
+}
+#instructors .top-instructors .instructor-list h5{
+    font-weight:600;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #0F172A;
+
+    
+
+}
+#instructors .top-instructors .instructor-list p{
+    font-weight:400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #334155;
+    
+    
+    
+}
+#instructors .top-instructors .instructors-list .star{
+   
+    padding: 10px;
+
+}
+#instructors .top-instructors .instructor-list .star .rate{
+    font-weight:600;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #191924;
+    
+   
+
+    
+}
+#instructors .top-instructors .instructors-list .star .st{
+    font-weight:600;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #191924;
+    
+}
+
+/* customer */
+#customer{
+    background: #F8FAFC;
+    padding-top: 5%;
+    
+
+}
+#customer .customer-1{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+    padding: 1%;
+}
+#customer .customer-1 .customer-container {
+    border: solid 1px #E2E8F0;
+    padding: 30px;
+    border-radius: 20px;
+    
+    
+
+    
+    
+
+
+}
+#customer   .customer-top{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#customer   .customer-top h3{
+    padding-bottom: 3%;
+    
+}
+#customer  .customer-top .arrow-img{
+    display: flex;
+    gap: 10px;
+    
+}
+#customer  .customer-top .arrow-img img{
+    background-color: #0567f0;
+    height: 10px;
+    width: 50%;
+
+    
+}
+#customer .customer-1 .customer-container .jane{
+    display: flex;
+    flex-direction: column
+
+}
+#customer.customer-1  .customer-container .jane .quote{ 
+
+}
+#customer .customer-1 .customer-container .jane .quote img{ 
+    border-radius: ;
+
+
+}
+#customer .customer-1 .customer-container .jane p{
+
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: left;
+
+
+}
+#customer .customer-1 .customer-container .customer-bottom{
+    padding-top: 8px;
+    gap: 5px;
+    display: flex;
+
+}
+#customer .customer-1 .customer-container .customer-bottom .span-7{ 
+    
+    
+
+}
+#customer .customer-1 .customer-container .customer-bottom .span-7 img{
+    border-radius: 50px;
+  
+}
+#customer .customer-1 .customer-container .customer-bottom .jane-name{
+   
+font-size: 18px;
+font-weight: 600;
+line-height: 28.8px;
+
+
+
+
+}
+#customer .customer-1 .customer-container .customer-bottom .jane-name p {
+    
+}
+
+
+/* textmonial */
+
+#textmonial{
+
+}
+#textmonial .monial-top{
+    display: flex;
+    gap: 15%;
+    align-items: center;
+   
+
+}
+#textmonial .monial-top .img-top{
+
+}
+#textmonial .monial-top img{
+
+}
+
+#textmonial .monial-top-text .monial-top h3{
+ 
+}
+#textmonial .monial-top-text  .monial-top h5{
+
+}
+#textmonial .monial-top-text .monial-top .monial-top-btn{
+
+}
+#textmonial{
+
+}
+#textmonial .monial-bottom{
+    display: flex;
+   
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
