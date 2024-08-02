@@ -753,3 +753,8 @@
   
 
 }
+@media(max-width: 612px){
+    #categry .top-categories .bottom {
+        justify-content: center;
+    }
+}
